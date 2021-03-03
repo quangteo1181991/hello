@@ -1,0 +1,7 @@
+{
+"cpu_connect": "telnet 10.76.237.8 7031",
+"scp_master_connect": "telnet 10.76.237.8 7034",
+"scp_slave_connect": "telnet 10.76.237.8 7035",
+"atf_connect": "telnet 10.76.237.8 7033",
+"bmc_connect": "telnet 10.76.237.8 7032"
+}

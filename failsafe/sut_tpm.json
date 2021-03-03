@@ -1,0 +1,7 @@
+{
+"cpu_connect": "telnet 10.38.131.8 7307",
+"scp_master_connect": "telnet 10.38.131.8 7314",
+"scp_slave_connect": "ipmitool -H 10.38.131.135 -U ADMIN -P ADMIN -I lanplus sol activate instance=4",
+"atf_connect": "ipmitool -H 10.38.131.135 -U ADMIN -P ADMIN -I lanplus sol activate instance=3",
+"bmc_connect": "telnet 10.38.131.8 7006"
+}
